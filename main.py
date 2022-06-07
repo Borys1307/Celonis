@@ -110,7 +110,8 @@ def create_failed_output(string, dictionary):
     
 jobs_failed = create_failed_output(failed_jobs_string, failed_jobs)
 
-def jobs_by_name_output(string,list_of_dicts):    
+def jobs_by_name_output(string,list_of_dicts): 
+    string+='<ul>'
     for job in list_of_dicts:
         key = list(job.keys())[0]
         string+= f'<li>{key} : {job[key]} </li>'
