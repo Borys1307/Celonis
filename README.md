@@ -15,5 +15,5 @@ receiver_email - email address for user, for whom notification will be sent. In 
 subject - the subject of sending email, default value can be changed to any desired.
 hello - the introduction string of email, can be changed from default as well.
 failed_jobs_string - this is for displaying failed jobs. Can be changed, just two pairs of {} should be left in template to recognize data pools and data jobs.
-jobs_by_pool_string - this is for displaying get_jobs_by_pool_name feature. {} should be left in template to recognize data pool name. Please note, this is displayed as unordered list, so <ul> tag should not be left from template as well.
-jobs_by_name_string - this is for displaying get_job_status_by_job_name feature. Please note, this is displayed as unordered list, so <ul> tag should not be left from template as well.
+jobs_by_pool_string - this is for displaying get_jobs_by_pool_name feature. {} should be left in template to recognize data pool name.
+jobs_by_name_string - this is for displaying get_job_status_by_job_name feature.
