@@ -181,5 +181,5 @@ def send_email():
     session.sendmail(sender_email, receiver_email, text)
     session.quit()
     
-if result != '' or jobs_by_pool_string != '' or jobs_by_name_string != '':
+if failed_jobs != '' or jobs_by_pool_string != '' or jobs_by_name_string != '':
     send_email()
